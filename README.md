@@ -6,7 +6,7 @@ J'ai voulu coder un test de vitesse Internet en utilisant HTML5, CSS3 et JavaScr
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/detection_vitesse_internet/
 
 ## Développez avec
 
