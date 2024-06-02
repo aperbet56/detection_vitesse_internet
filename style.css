@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 50%, rgba(253,187,45,1) 50%);
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+h1, footer span {
+    text-align: center;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.main__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 0 2rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    box-shadow: 0 24px 36px rgba(40, 4, 67, 0.3);
+}
+
+.container img {
+    width: 100%;
+}
+
+p {
+    font-weight: 400;
+    color: #747497;
+}
+
+span {
+    font-weight: 400;
+    color: #090931;
+}
+
+footer span {
+    font-size: 1.2rem;
+}
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 472px) {
+    .container {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+        width: 290px;
+        font-size: 1rem;
+    }
+}
